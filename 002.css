@@ -1,0 +1,30 @@
+
+article{
+    width:1045px;
+    padding:80px;
+    box-sizing: border-box;
+    background-color: #f6f5f5;
+    text-align: center;
+}
+
+article > h2{font-size: 36px;}
+article > h2::after{
+    content:'';
+    width:100px;
+    display:block;
+    border-bottom: 1px solid #000;
+    margin:30px auto;
+}
+article > p{tont-size: 16px;}
+article > div{
+    margin-top:60px;
+    display:flex;
+    justify-content: space-between;
+}
+article > div > p{width:288px; height:399px;  overflow: hidden;
+    cursor: pointer;}
+article > div > p > img{width:100%;}
+
+article > div > p:hover > img{
+    width:120%;
+}
